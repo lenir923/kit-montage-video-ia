@@ -1,0 +1,51 @@
+# Vos projets, rushs, transcriptions et rendus restent sur votre machine.
+video-projects/
+raw-media/
+renders/
+**/renders/
+tmp/
+archives/
+
+# Dependances
+node_modules/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.env
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+token.json
+credentials.json
+
+# Medias et rendus (le kit ne publie aucune video)
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.zip
+
+# Bases locales, caches, systeme
+*.sqlite
+*.sqlite3
+*.db
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Reglages personnels des assistants
+.claude/settings.local.json
+.codex/auth.json
+.codex/sessions/
+.codex/history.jsonl
